@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-05T14:18:50 IST" name="Default suite" finished-at="2025-03-05T14:19:06 IST" duration-ms="15343">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateProductTest.CreateProductTest()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" name="CreateProductTest" class="organisation.CreateProductTest"/>
+      </group> <!-- regressionTest -->
+    </groups>
+    <test started-at="2025-03-05T14:18:50 IST" name="Default test" finished-at="2025-03-05T14:19:06 IST" duration-ms="15343">
+      <class name="organisation.CreateProductTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:18:50 IST" name="BS" finished-at="2025-03-05T14:18:50 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:18:50 IST" name="BT" finished-at="2025-03-05T14:18:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:18:50 IST" name="BC" finished-at="2025-03-05T14:18:52 IST" duration-ms="1327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:18:52 IST" name="BM" finished-at="2025-03-05T14:18:55 IST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="CreateProductTest()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:18:55 IST" name="CreateProductTest" finished-at="2025-03-05T14:19:04 IST" duration-ms="9749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProductTest -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:19:05 IST" name="AM" finished-at="2025-03-05T14:19:06 IST" duration-ms="1176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:19:06 IST" name="AC" finished-at="2025-03-05T14:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:19:06 IST" name="AT" finished-at="2025-03-05T14:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:organisation.CreateProductTest@6d4d66d2]" started-at="2025-03-05T14:19:06 IST" name="AS" finished-at="2025-03-05T14:19:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- organisation.CreateProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
