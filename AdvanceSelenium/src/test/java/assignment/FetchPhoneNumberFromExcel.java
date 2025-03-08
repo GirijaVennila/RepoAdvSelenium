@@ -12,8 +12,9 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class FetchPhoneNumberFromExcel {
 	//I'M PULLING 1 
-	//I'M PUSHING 
+	//I'M PUSHING 1
 //i'm pulling 2
+	//i'm pushing 2
 	public static void main(String[] args) throws Throwable {
 		
 		FileInputStream fis = new FileInputStream("./src/test/resources/ExcelPhNo.xlsx");
