@@ -42,8 +42,8 @@ public class BaseClass {
 	//public void BC(String BROWSER) throws Throwable {
 	public void BC() throws Throwable {
 
-	//	String BROWSER = flib.getCommonData("browser");
-		String BROWSER = System.getProperty("browser");
+		String BROWSER = flib.getCommonData("browser");
+		//String BROWSER = System.getProperty("browser");
 
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
@@ -64,13 +64,13 @@ public class BaseClass {
 		wlib.maximizeWindow(driver);
 		wlib.loadTheElements(driver);
 
-//		String URL = flib.getCommonData("url");
-//		String USERNAME = flib.getCommonData("username");
-//		String PASSWORD = flib.getCommonData("password");
+		String URL = flib.getCommonData("url");
+		String USERNAME = flib.getCommonData("username");
+		String PASSWORD = flib.getCommonData("password");
 		//FOR USING CMD PROMPT
-		String URL = System.getProperty("url");
-		String USERNAME = System.getProperty("username");
-		String PASSWORD = System.getProperty("password");
+//		String URL = System.getProperty("url");
+//		String USERNAME = System.getProperty("username");
+//		String PASSWORD = System.getProperty("password");
 		
 		driver.get(URL);
 
